@@ -41,13 +41,11 @@ class _DicePageState extends State<DicePage> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
-          Expanded(
-            child: FlatButton(
-              onPressed: (){
-                randomDice();
-              },
-              child: Image.asset('images/ball$leftDiceNumber.png'),
-            ),
+          FlatButton(
+            onPressed: (){
+              randomDice();
+            },
+            child: Image.asset('images/ball$leftDiceNumber.png'),
           ),
           Text(
             textImage[textNumber],
