@@ -49,6 +49,11 @@ class _DicePageState extends State<DicePage> {
           ),
           Text(
             textImage[textNumber],
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: Colors.blue,
+              fontSize: 16.0,
+            ),
           ),
         ],
       ),
